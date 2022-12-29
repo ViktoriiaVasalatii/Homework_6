@@ -11,42 +11,15 @@ for (let i = 0; i < array.length; i++) {
 }
 console.log(arrayProcessed);
 
-//////////////////////////////////////////////////////
-// for(let i of ); 
-// function arrayUnique(arra1){
-const arra1 = ['a', 'c', 'f', 'd', 'r', 'd'];
-const arra2 = ['a', 'c', 's', 'd', 'r', 'e'];
-for (let i = 0; i < arra1.length; i++) {
-    for (let j = 0; j < arra2.length; j++) {
-        if (arra1.length == arra2.length) {
-            if (arra1[i] == arra2[j]) {
-                console.log("true");
-            }
-            else {
-                console.log("Error 2")
-            }
-        }
-        else {
-            console.log("Error 1 ");
-        }
-    }
-}
-// return a; 
-// }
-// const tempDates = ['a', 'c', 'f', 'd', 'r', 'd'];
-// const arr = ['a', 'c', 's', 'd', 'r', 'e'];
-// for (var i = 0; i < tempDates.length; i++) {
-//     for (var j = 0; j < arr.length; j++) {
+////////////////////////////////////////////////////// 
 
-        // if(tempDates.length == arr.length) {
-        //     return true;
-        // } else if (tempDates.length !== arr.length) {
-        //     if(tempDates[i] !== arr[j]){
-        //         tempDates.push(j);
-        //     }
-        // }
-//     }
-// }
+const arra1 = ['a', 'c', 'f', 'd', 'r', 'e'];
+const arra2 = ['a', 'c', 'd', 'r', 'e', 'f'];
+// arra1.sort(); 
+// arra2.sort(); 
+const isEgual = arra1.toString() === arra2.toLocaleString();
+console.log(isEgual);
+
 //////////////////////////////////////////////////////
 const array3 = ["Peter", "Ann", "Ben", "Jack", "Kate"];
 const letter = 'J';
